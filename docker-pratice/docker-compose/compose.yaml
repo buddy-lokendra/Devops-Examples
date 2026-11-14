@@ -1,0 +1,28 @@
+services:
+  # Nginx web server
+  # web:
+  #   image: nginx
+  #   ports:
+  #     - "8080:80"
+
+  # Python app
+  # app:
+  #   image: python:3.12
+  #   command: python -m http.server 8000
+  #   working_dir: /app
+  #   volumes:
+  #     - ./app:/app
+  #   ports:
+  #     - "8000:8000"
+
+  # PostgreSQL database
+  # db:
+  #   image: postgres:16
+  #   environment:
+  #     POSTGRES_USER: demo
+  #     POSTGRES_PASSWORD: demo123
+  #     POSTGRES_DB: app
+
+  # Redis cache
+  # cache:
+  #   image: redis
